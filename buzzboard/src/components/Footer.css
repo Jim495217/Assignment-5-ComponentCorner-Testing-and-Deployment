@@ -1,0 +1,12 @@
+.footer {
+  background: #222;
+  color: #ccc;
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: 40px;
+}
+
+.footer h3 {
+  color: white;
+  margin-bottom: 10px;
+}
