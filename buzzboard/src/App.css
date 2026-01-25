@@ -5,3 +5,10 @@
   flex-wrap: wrap;
   padding: 40px 20px;
 }
+.cart {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}

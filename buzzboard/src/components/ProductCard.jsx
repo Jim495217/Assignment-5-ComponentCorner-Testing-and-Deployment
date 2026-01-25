@@ -1,20 +1,25 @@
-// ProductCard.jsx
-import React from "react";
 import "./ProductCard.css";
 
-const ProductCard = ({ name, price, image, description }) => {
+const ProductCard = ({ product, onAddToCart }) => {
   return (
     <div className="product-card">
-      <img 
-        src={image} 
-        alt={name} 
+      <img
+        src={product.image}
+        alt={product.name}
         className="product-image"
       />
 
-      <div className="product-details">
-        <h2 className="product-name">{name}</h2>
-        <p className="product-description">{description}</p>
-        <p className="product-price">${price}</p>
+      <div className="product-info">
+        <h3>{product.name}</h3>
+        <p className="description">{product.description}</p>
+        <p className="price">${product.price}</p>
+
+        <button
+          className="add-btn"
+          onClick={() => onAddToCart(product)}
+        >
+          Add to Cart
+        </button>
       </div>
     </div>
   );
