@@ -1,49 +1,15 @@
-/* Header layout */
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-  background-color: #1e1e2f;
-  color: white;
-}
-
-/* Navigation spacing */
-nav {
-  display: flex;
-  align-items: center;
-  gap: 2rem; /* ✅ Adds spacing between Home, Products, and Cart */
-}
-
-/* Navigation links */
-nav a {
-  text-decoration: none;
-  color: white;
-  font-weight: 500;
-  transition: color 0.2s ease;
-}
-
-nav a:hover {
-  color: #61dafb;
-}
-
-/* Cart container */
 .cart-container {
   position: relative;
-  font-size: 1.5rem;
-  display: flex;
-  align-items: center;
-}
+  font-size: 1.5rem; 
+} 
 
-/* Badge styling generated with assistance from AI */
-.cart-badge {
+.cart-count {
   position: absolute;
   top: -8px;
   right: -10px;
   background: red;
   color: white;
   border-radius: 50%;
-  padding: 3px 7px;
-  font-size: 0.75rem;
-  font-weight: bold;
+  padding: 2px 6px;
+  font-size: 0.75rem; 
 }
