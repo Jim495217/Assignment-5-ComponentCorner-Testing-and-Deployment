@@ -1,7 +1,8 @@
 .cart-container {
   position: relative;
-  font-size: 1.5rem; 
-} 
+  font-size: 1.5rem;
+}
+
 
 .cart-count {
   position: absolute;
@@ -11,5 +12,5 @@
   color: white;
   border-radius: 50%;
   padding: 2px 6px;
-  font-size: 0.75rem; 
+  font-size: 0.75rem;
 }
